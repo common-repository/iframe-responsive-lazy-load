@@ -1,0 +1,87 @@
+.dashboard_page_iframe-rll-pro-license a,
+.settings_page_iframe-rll-pro  a{
+	text-decoration:none;
+}
+.dashboard_page_iframe-rll-pro-license  a:focus,
+.dashboard_page_iframe-rll-pro-license  a:hover,
+.settings_page_iframe-rll-pro  a:focus,
+.settings_page_iframe-rll-pro  a:hover{
+	box-shadow: none;
+	text-decoration:none
+}
+#iframe-rll-options  a:focus,
+#iframe-rll-options  a:hover{
+	box-shadow: none;
+	text-decoration:none
+}
+#iframe-rll-options tr.iframe-rll-header td {
+    font-style: italic;
+    padding: 10px 5px;
+    margin: 0px;
+}
+#iframe-rll-options tr.iframe-rll-header h4 {
+    font-weight: bold;
+    font-size: 15px;
+    font-style: normal;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    margin: 0px 0px 10px;
+    padding: 0px 0px 10px;
+}
+#iframe-rll-options tr[valign="top"] th {
+    padding-left: 5px;
+}
+#iframe-rll-options code {
+	padding: 5px;
+	font-size: 12px;
+}
+#iframe-rll-options .space th,
+#iframe-rll-options .space td{
+    padding: 15px;
+}
+#iframe-rll-options .no-space th,
+#iframe-rll-options .no-space td{
+    padding: 4px;
+}
+#iframe-rll-options input[type="text"]{
+    padding: 15px 10px;
+    font-size: 15px;
+    line-height: 100%;
+    height: 36px;
+    width: 55%;
+    outline: 0;
+    background-color: #fff;
+}
+#iframe-rll-options i{
+	padding-top: 5px;
+    font-size: 13px;
+}
+.iframe-rll-flex{
+    display: flex;
+    flex-direction: column;
+}
+.dashicons-yes{
+    color: #ffffff;
+    background: #4abb04;
+    margin-right: 5px;
+    position: relative;
+    bottom: 1px;
+    border-radius: 24px;
+    padding: 0px 5px 0px;
+    padding-left: 2px;
+}
+span.attr{
+	background: #fbf0f0;
+    padding: 1px 10px 4px;
+    border-radius: 30px;
+}
+a.links{
+    background: aliceblue;
+    padding: 3px 10px 4px;
+    margin-right: 5px;
+    position: relative;
+    left: -3px;
+	border: 1px solid transparent;
+}
+a.links:hover{
+	border: 1px solid #00a0d2;
+}

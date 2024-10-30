@@ -1,0 +1,222 @@
+/* iframeRLL_admin_editor_btn CSS */
+#iframeRLL_model_bg, #iframeRLL_model_div{
+	display:none;
+}
+.iframeRLL_model_inner_title{
+	font-size: 16px;
+	padding: 10px 0;
+}
+#iframeRLL_source, #iframeRLL_width, #iframeRLL_height{
+	width:100%
+}
+.iframeRLL_width_class{
+	padding-right: 5px;
+	width:100%;
+	margin-bottom: 10px;
+}
+.iframeRLL_height_class{
+	padding-left: 5px;
+	padding-right: 5px;
+	width:100%;
+	margin-bottom: 10px;
+}
+.iframeRLL_class{
+	padding-left: 5px;
+	width:100%;
+	margin-bottom: 10px;
+}
+.enable_multiple_iframe{
+    padding-bottom: 10px;
+}
+.enable_multiple_iframe_div{
+	display:none;
+}
+#iframeRLL_model_div input[type="text"]{
+    width: 100%;
+    padding: 5px;
+}
+#iframeRLL_model_div textarea{
+    width: 100%;
+}
+#iframeRLL_model_div {
+	display: none;
+	background-color: #fff;
+	-webkit-box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+	box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+	width: 500px;
+	height: auto;
+	overflow: hidden;
+	margin-left: -250px;
+	margin-top: -180px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 100105;
+	-webkit-transition: height 0.2s, margin-top 0.2s;
+	transition: height 0.2s, margin-top 0.2s;
+}
+#iframeRLL_model_bg {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	min-height: 360px;
+	background: #000;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	z-index: 100100;
+}
+.iframeRLL_model_tab {
+	padding: 0 16px 50px;
+}
+#iframeRLL_model_tab {
+    padding: 10px 16px 10px;
+    background: red;
+    color: white;
+}
+#iframeRLL_model_tab span{
+	margin-right: 15px;
+	cursor: pointer;
+	
+}
+#iframeRLL_model_tab span.active {
+    border-bottom: 2px solid white;
+}
+#iframeRLL_model_body {
+	position: relative;
+	height: 100%;
+}
+#iframeRLL_model_title {
+	background: #fcfcfc;
+	border-bottom: 1px solid #dfdfdf;
+	height: 36px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 36px;
+	padding: 0 36px 0 16px;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+#iframeRLL_model_close {
+	color: #666;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 36px;
+	height: 36px;
+	text-align: center;
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+#iframeRLL_model_close:before {
+	font: normal 20px/36px 'dashicons';
+	vertical-align: top;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	width: 36px;
+	height: 36px;
+	content: '\f158';
+}
+#iframeRLL_model_close:hover,
+#iframeRLL_model_close:focus {
+	color: #2ea2cc;
+}
+#iframeRLL_model_close:focus {
+	outline: none;
+	-webkit-box-shadow:
+		0 0 0 1px #5b9dd9,
+		0 0 2px 1px rgba(30, 140, 190, .8);
+	box-shadow:
+		0 0 0 1px #5b9dd9,
+		0 0 2px 1px rgba(30, 140, 190, .8);
+}
+
+
+#iframeRLL_model_body .submitbox {
+	padding: 8px 16px;
+	background: #fcfcfc;
+	border-top: 1px solid #dfdfdf;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+#iframeRLL_model_cancel {
+	line-height: 25px;
+	float: left;
+}
+#iframeRLL_model_update {
+	line-height: 23px;
+	float: right;
+}
+#iframeRLL_model_submit {
+	float: right;
+	margin-bottom: 0;
+}
+.iframeRLL_attribute{
+    display: flex;
+    width: 100%;
+}
+.iframeRLL_insert_btn{
+	display: inline-flex !important;
+    align-items: center;
+}
+.iframeRLL_insert_btn span{
+    padding-right: 5px;
+	color: #82878c;
+}
+.iframe-rll-editor-button-icon{
+    padding-left: 0 !important;
+}
+#iframeRLL_model_container div.iframeRLL_model_tab{
+	display:none;
+}
+#iframeRLL_model_container div.iframeRLL_model_tab.active{
+	display:block !important;
+}
+@media screen and ( max-width: 782px ) {
+	#iframeRLL_model_div {
+		margin-top: -140px;
+	}
+	#iframeRLL_model_body-inner {
+		padding: 0 16px 60px;
+	}
+	#iframeRLL_model_cancel {
+		line-height: 32px;
+	}
+}
+@media screen and ( max-width: 520px ) {
+	#iframeRLL_model_div {
+		width: auto;
+		margin-left: 0;
+		left: 10px;
+		right: 10px;
+		max-width: 500px;
+	}
+}
+@media screen and ( max-height: 520px ) {
+	#iframeRLL_model_div {
+		-webkit-transition: none;
+		transition: none;
+	}
+}
+@media screen and ( max-height: 290px ) {
+	#iframeRLL_model_div {
+		height: auto;
+		margin-top: 0;
+		top: 10px;
+		bottom: 10px;
+	}
+	.iframeRLL_model_tab {
+		overflow: auto;
+		height: -webkit-calc(100% - 92px);
+		height: calc(100% - 92px);
+		padding-bottom: 2px;
+	}
+}
